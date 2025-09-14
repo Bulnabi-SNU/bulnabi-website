@@ -15,8 +15,7 @@ feature_row:
 - image_path: "/assets/images/mm-customizable-feature.png"
   alt: customizable
   title: Bulnabi Test v2
-  excerpt: Everything from the menus, sidebars, comments, and more can be configured
-    or set with YAML Front Matter.
+  excerpt: Maybe works???
   url: "/docs/configuration/"
   btn_class: btn--primary
   btn_label: Learn more
