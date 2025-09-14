@@ -19,7 +19,7 @@ feature_row:
   btn_label: Learn more
 - image_path: "/assets/images/mm-responsive-feature.png"
   alt: fully responsive
-  title: Responsive layouts
+  title: 제발 고장나지 말아줘... 흑흑흑
   excerpt: Built with HTML5 + CSS3. All layouts are fully responsive with helpers
     to augment your content.
   url: "/docs/layouts/"
