@@ -1,12 +1,25 @@
-# main links
+# main navigation links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Gallery"
+    url: /gallery/
+  - title: "Wiki"
+    url: /wiki
+  - title: "Links"
+    url: /links/
+
+# project navigation (for project pages)
+projects:
+  - title: "All Projects"
+    url: /projects/
+  - title: "2024 로봇항공기대회"
+    url: /projects/2024-robot-aviation/
+  - title: "2024 AIAA DBF"
+    url: /projects/2024-aiaa-dbf/
+  - title: "2025 로봇항공기대회"
+    url: /projects/2025-robot-aviation/

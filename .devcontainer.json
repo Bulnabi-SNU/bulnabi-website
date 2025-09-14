@@ -1,0 +1,52 @@
+{
+  "name": "Jekyll Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  
+  // Configure tool-specific properties
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-json",
+        "davidanson.vscode-markdownlint",
+        "bierner.markdown-preview-github-styles",
+        "christian-kohler.path-intellisense"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "files.associations": {
+          "*.html": "liquid",
+          "*.md": "markdown"
+        },
+        "emmet.includeLanguages": {
+          "liquid": "html"
+        }
+      }
+    }
+  },
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally
+  "forwardPorts": [4000, 35729],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll Server",
+      "onAutoForward": "openPreview"
+    },
+    "35729": {
+      "label": "LiveReload"
+    }
+  },
+
+  // Use 'postCreateCommand' to run commands after the container is created
+  "postCreateCommand": "bundle install",
+
+  // Use 'postStartCommand' to run commands after the container starts
+  "postStartCommand": "echo 'Jekyll development environment is ready! Run: bundle exec jekyll serve --host 0.0.0.0 --livereload'",
+
+  // Set container user
+  "remoteUser": "jekyll",
+
+  // Keep container running
+  "shutdownAction": "stopContainer"
+}
