@@ -14,7 +14,7 @@ excerpt: A flexible two-column Jekyll theme. Perfect for building personal sites
 feature_row:
 - image_path: "/assets/images/mm-customizable-feature.png"
   alt: customizable
-  title: HELP
+  title: Bulnabi Test
   excerpt: Everything from the menus, sidebars, comments, and more can be configured
     or set with YAML Front Matter.
   url: "/docs/configuration/"
