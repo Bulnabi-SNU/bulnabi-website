@@ -43,8 +43,7 @@ feature_row2:
 - image_path: "/assets/images/about-us.jpg"
   alt: 불나비 소개
   title: 불나비를 소개합니다
-  excerpt: "**불나비**는 하늘을 향한 꿈과 열정을 품고 1980년에 창설된 서울대학교의 대표적인 항공동아리입니다. 40여 년의 역사와
-    전통을 바탕으로 수많은 항공 전문가를 배출하며, 대한민국 항공 산업 발전에 기여하고 있습니다."
+  excerpt: ''
   url: "/about/"
   btn_label: 동아리 소개 보기
   btn_class: btn--primary
