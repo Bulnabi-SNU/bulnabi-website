@@ -6,8 +6,8 @@ header:
   overlay_color: "#5e616c"
   overlay_image: "/assets/images/mm-home-page-feature.jpg"
   actions:
-  - label: "<i class='fas fa-download'></i> Install now"
-    url: "/docs/quick-start-guide/"
+  - label: "<i class='fas fa-download'></i> 위키 가기"
+    url: "/wiki"
 excerpt: 공사중, 곧 생길 예정입니다!
 feature_row:
 - image_path: "/assets/images/mm-customizable-feature.png"
