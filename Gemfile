@@ -1,9 +1,14 @@
+#after any changes to the Gemfile, execute bundle update!
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "minimal-mistakes-jekyll"
+gem "jekyll-remote-theme"
 
 group :jekyll_plugins do
-  gem "jekyll-admin"
-  gem "jekyll-watch"
+  gem "jekyll-feed", "~> 0.6"
+  gem 'jekyll-admin'
+  # gem "github-pages" # https://github.com/github/pages-gem
 end
+
+# Uncomment the following line if developing on Windows: 
+# Performance-booster for watching directories on Windows
+# gem "wdm", ">= 0.1.0" if Gem.win_platform?

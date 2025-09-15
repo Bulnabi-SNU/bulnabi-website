@@ -1,0 +1,121 @@
+#
+# BULNABI Drone Club Website Content
+# Configuration for Jekyll Agency Theme
+#
+
+# Korean (default)
+# -----------------
+ko: &DEFAULT_KO
+  header:
+    title: 불나비
+    text: Fly Through 
+    button: 더 알아보기
+    wiki_button: "위키"
+    wiki_buttonlink: /wiki
+
+  services:
+    title: "활동 분야"
+    text: "하드웨어와 소프트웨어의 융합"
+    section: services
+    list:
+      - title: "하드웨어 개발"
+        desc: "자세한 설명은 나중에"
+        icon: fas fa-cogs
+      - title: "소프트웨어 개발"
+        desc: "자세한 설명은 나중에"
+        icon: fas fa-code
+      - title: "대회 및 연구"
+        desc: "자세한 설명은 나중에"
+        icon: fas fa-trophy
+
+  portfolio:
+    title: "주요 성과"
+    section: portfolio
+    closebutton: "닫기"
+
+  about:
+    title: "불나비 소개"
+    text: "35년 전통의 드론 동아리"
+    body: "불나비는 서울대학교 유일 자율주행 드론 동아리입니다. 1991년 설립되어 35년의 역사를 지닌 서울대학교 항공우주공학과 소속의 동아리입니다. 불나비는 2024년 한국로봇항공기 경연대회에서 대상을 수상하였습니다.  4월에 미국에서 열리는 AIAA Design/Build/Fly에 참여하고 9월에 열리는 로봇항공기 경연대회에 참여할 예정입니다. (올해 글로 편집하기)"
+    section: about
+
+  timeline:
+    title: "연혁"
+    text: "불나비의 성장 과정"
+    section: timeline
+    events:
+      - title: "동아리 설립"
+        year: "1991"
+        desc: "서울대학교 항공우주공학과 소속 드론 동아리로 설립되어 35년의 역사를 자랑합니다."
+        image: assets/img/timeline/founding.jpg
+        alt: 동아리 설립
+      - title: "로봇항공기 대회 우승"
+        year: "2024"
+        desc: "한국로봇항공기 경연대회에서 대상을 수상하며 우리의 실력을 증명했습니다."
+        image: assets/img/timeline/2024-win.jpg
+        alt: 2024년 대상 수상
+      - title: "국제 대회 진출"
+        year: "2025"
+        desc: "AIAA Design/Build/Fly와 로봇항공기 경연대회에 지속적으로 참여하고 있습니다."
+        image: assets/img/timeline/international.jpg
+        alt: 국제 대회
+    #end: "함께 <br> 날아오를 <br> 미래!"
+
+
+  team:
+    title: "모집 안내"
+    text: "2025-1학기 신입부원 모집"
+    subtext: "드론에 관심이 있는 모든 분들을 환영합니다. 항공우주공학과 학생만 가능하며, 하드웨어와 소프트웨어 두 분야에서 활동할 수 있습니다."
+    section: team
+    people:
+      - name: "하드웨어 팀"
+        role: "기체 설계 및 제작"
+        image: assets/img/team/hardware.jpg
+        social:
+          - url: "#"
+            icon: fas fa-wrench
+      - name: "소프트웨어 팀"
+        role: "시뮬레이션 및 제어"
+        image: assets/img/team/software.jpg
+        social:
+          - url: "#"
+            icon: fas fa-laptop-code
+      - name: "대회 팀"
+        role: "경연대회 참가"
+        image: assets/img/team/competition.jpg
+        social:
+          - url: "#"
+            icon: fas fa-medal
+
+  contact:
+    title: "지원 방법"
+    text: "함께 날아오를 준비가 되셨나요?"
+    section: contact
+    application_info:
+      - text: "지원 기간은 따로 없으며 상시 모집입니다."
+      - text: "구글폼 작성 및 회비 납부를 통해서 지원하실 수 있습니다."
+      - text: "OT는 3월 10일입니다. 필참바랍니다."
+      - text: "문의 사항은 인스타그램 @snu_bulnabi 혹은 회장 이춘영 010-5131-0868을 통하시면 됩니다."
+    wiki_button:
+      text: "위키 보기"
+      link: "/wiki"
+    name: "이름*"
+    name-validation: "이름을 입력해주세요."
+    email: "이메일*"
+    email-validation: "이메일을 입력해주세요."
+    phone: "전화번호"
+    phone-validation: "전화번호를 입력해주세요."
+    message: "메시지*"
+    message-validation: "메시지를 입력해주세요."
+    subject: "불나비 문의"
+    submit: "문의하기"
+
+  footer:
+    legal: "개인정보처리방침"
+    social:
+      - url: https://instagram.com/snu_bulnabi
+        icon: "fab fa-instagram"
+      - url: "#"
+        icon: "fas fa-plane"
+ko-KR:
+  <<: *DEFAULT_KO
