@@ -11,16 +11,14 @@
 # ----------------
 ko: &DEFAULT_KO
   nav:
+    - title: "동아리 소개"
+      section: about
     - title: "활동 분야"
       section: services
     - title: "주요 성과"
       section: portfolio
-    - title: "동아리 소개"
-      section: about
     - title: "모집 안내"
       section: team
-    - title: "지원 방법"
-      section: contact
     - title: "위키"
       url: /wiki
 
