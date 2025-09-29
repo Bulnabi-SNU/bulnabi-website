@@ -40,3 +40,9 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yml
