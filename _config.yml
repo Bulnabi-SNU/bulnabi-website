@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : 불나비
 email      : your-email@example.com #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
+description: "불나비 홈페이지"
 logo:     #optional, defaults to site title
   path: assets\img\Bulnabi_logo.webp
   height: 100 #height in px, defaults to 52px
@@ -46,3 +46,4 @@ exclude:
   - Gemfile.lock
   - Dockerfile
   - docker-compose.yml
+  - README.md
