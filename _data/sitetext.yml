@@ -1,0 +1,97 @@
+#
+# BULNABI Drone Club Website Content
+# Configuration for Jekyll Agency Theme
+#
+
+# Korean (default)
+# -----------------
+ko: &DEFAULT_KO
+  header:
+    title: 불나비
+    text: Fly Through 
+    button: 더 알아보기
+    wiki_button: "위키"
+    wiki_buttonlink: /wiki
+
+  services:
+    title: "활동 분야"
+    text: "불나비는 비행체 설계, 제작, 제어에 이르는 전 과정을 직접 수행합니다."
+    section: services
+    list:
+      - title: "하드웨어 개발"
+        desc: "자체 개발 사이징 툴과 Fusion 을 이용한 기체 설계, OpenVSP 및 Ansys를 통한 공력/구조 해석, 그리고 최종 제작까지 기체 하드웨어 개발의 전 과정을 주도합니다."
+        icon: fas fa-cogs
+      - title: "소프트웨어 개발"
+        desc: "통신 시스템과 제어기를 포함한 자율 비행 시스템 전반을 개발합니다. ROS2/PX4 환경과 Gazebo 시뮬레이터를 기반으로 비행 알고리즘을 설계하고, 가상 테스트를 거쳐 실제 기체에 포팅합니다."
+        icon: fas fa-code
+      - title: "대회 및 연구"
+        desc: "매년 로봇항공기 경연대회에 꾸준히 참가하고 있으며, 서울대학교 항공우주공학과 내 연구실들과 협업하여 다양한 연구 프로젝트를 수행합니다."
+        icon: fas fa-trophy
+
+  portfolio:
+    title: "주요 성과"
+    section: portfolio
+    closebutton: "닫기"
+
+  about:
+    title: "불나비 소개"
+    text: "서울대학교 항공 드론 동아리"
+    body: " '불나비'는 1991년에 설립된 서울대학교 유일의 자율비행 드론 동아리입니다. 현재 서울대학교 항공우주공학과 소속으로 SMRL 연구실 박형준 교수님의 지도 아래, RC 모형 항공기부터 드론, 고정익기, 수직이착륙기(VTOL)에 이르기까지 다양한 비행체를 직접 개발하여 각종 대회에 참가하고 관련 연구 프로젝트를 수행하고 있습니다."
+    section: about
+
+  timeline:
+    title: "연혁"
+    text: "불나비의 성장 과정"
+    section: timeline
+    events:
+      - title: "동아리 설립"
+        year: "1991"
+        desc: "불나비는 1991년에 결성된 모형 항공기 제작 동아리로35년의 역사를 자랑합니다."
+        image: assets/img/timeline/founding.jpg
+        alt: 동아리 설립
+      - title: "로봇항공기 대회 우승"
+        year: "2024"
+        desc: "제 22회 한국로봇항공기 경연대회에서 대상을 수상하였습니다."
+        image: assets/img/portfolio/rac-2024.jpg
+        alt: 2024년 대상 수상
+      - title: "국제 대회 진출"
+        year: "2025"
+        desc: "동아리 결성 이후 처음으로 AIAA DBF 국제대회에 출전하였습니다."
+        image: assets/img/portfolio/aiaa-2024.jpg
+        alt: 국제 대회
+    #end: "함께 <br> 날아오를 <br> 미래!"
+
+
+  team:
+    title: "모집 안내"
+    text: "2025-1학기 신입부원 모집"
+    subtext: "드론에 관심이 있는 모든 분들을 환영합니다."
+    section: team
+    people:
+      - name: "하드웨어 팀"
+        role: "기체 설계 및 제작"
+        image: assets/img/team/hardware.jpg
+        social:
+          - url: "#"
+            icon: fas fa-wrench
+      - name: "소프트웨어 팀"
+        role: "시뮬레이션 및 제어"
+        image: assets/img/team/software.jpg
+        social:
+          - url: "#"
+            icon: fas fa-laptop-code
+      - name: "대회 팀"
+        role: "경연대회 참가"
+        image: assets/img/team/competition.jpg
+        social:
+          - url: "#"
+            icon: fas fa-medal
+
+  footer:
+    social:
+      - url: https://instagram.com/snu_bulnabi
+        icon: "fab fa-instagram"
+      - url: "#"
+        icon: "fas fa-plane"
+ko-KR:
+  <<: *DEFAULT_KO
